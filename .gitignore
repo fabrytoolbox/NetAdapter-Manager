@@ -1,0 +1,21 @@
+# Profili di rete (dati utente)
+NetworkProfiles/
+*.json
+
+# Log
+*.log
+netadapter_manager_*.log
+
+# File temporanei
+*.tmp
+*.zip
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
