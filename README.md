@@ -1,6 +1,7 @@
 # 🖧 NetAdapter Manager
 
 Gestione avanzata delle schede di rete su Windows con GUI: IP, subnet, gateway, DNS, DHCP, profili e **toggle Attiva/Disattiva** in stile Matrix.
+![Screenshot](screenshot.png)
 
 ## ✨ Feature
 
