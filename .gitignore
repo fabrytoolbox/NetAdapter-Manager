@@ -1,21 +1,36 @@
-# Profili di rete (dati utente)
-NetworkProfiles/
-*.json
+# ============================================================
+# NetAdapter Manager - .gitignore
+# ============================================================
 
-# Log
+# --- Profili di rete (dati utente, non vanno in repo) ---
+NetworkProfiles/*.json
+NetworkProfiles/*.json.bak
+
+# --- Log generati dal tool ---
 *.log
+matrix_netadapter_manager_*.log
 netadapter_manager_*.log
 
-# File temporanei
+# --- File temporanei e archivi ---
 *.tmp
 *.zip
+*.7z
+*.rar
+*.bak
+*.old
 
-# Sistema
+# --- Sistema operativo ---
 Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
 desktop.ini
+$RECYCLE.BIN/
 .DS_Store
 
-# Editor
+# --- Editor / IDE ---
 .vscode/
 .idea/
 *.swp
+*.swo
+*~
